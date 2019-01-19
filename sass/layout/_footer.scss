@@ -1,0 +1,56 @@
+@font-face{
+    font-family: century-light;
+    src: url("../css/fonts/century-light.TTF");
+}
+.footer {
+    background-color: $color-grey-dark-4;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    color: $color-white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    line-height: 2rem;
+    font-family: century-light;
+
+
+    @include respond(tab-port) {
+        padding: 1rem 0;
+        position: static;
+    }
+
+    @include respond(tab-land) {
+        position: static;
+    }
+
+    &__content {
+        letter-spacing: .1rem;
+        width: 100rem !important;
+        
+        a{
+            color: $color-white;
+            text-decoration: underline;
+        }
+    }
+    &__widgets {
+        text-align: left;
+        width: 10rem !important;
+        font-size: 2rem;
+        letter-spacing: .7rem;
+        cursor: pointer;
+        margin-right: 1rem !important;
+
+        @include respond(tab-port) {
+            margin-bottom: 1rem !important;
+            text-align: left;
+            font-size: 1.6rem;
+        }
+        a{
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+
+
+}

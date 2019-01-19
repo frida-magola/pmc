@@ -1,0 +1,630 @@
+.header {
+    height: 85vh;
+    background-image:url(../images/links/first-page.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 4rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/links/first-page.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+        
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 84%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+    
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+
+    }
+}
+
+.directors {
+    height: 85vh;
+    background-image:url(../images/Links/Our-directors.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 4rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/Our-directors.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 90%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+
+        @include respond(tab-port) {
+            left: 30%;
+            top: 13rem;
+        }
+    }
+}
+
+.consultation {
+    height: 85vh;
+    background-image:url(../images/Links/Consultation.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 6rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/Consultation.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 23vh;
+        margin-top: 14rem;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 22vh;
+    //     margin-top: 15rem;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 90%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+        // @include respond(tab-land){
+        //     top: 16rem;
+        //     left: 13rem;
+        // }
+    }
+}
+
+.learning {
+    height: 85vh;
+    background-image:url(../images/learning.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 6.5rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/learning.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 92%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+    }
+}
+
+.resourcing {
+    height: 85vh;
+    background-image:url(../images/Links/Resourcing.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 6rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/Resourcing.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        width: 100%;
+        top: 92%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+        }
+
+        @include respond(tab-port) {
+            left: 30%;
+            top: 8.5rem;
+        }
+    }
+}
+
+.ondemand {
+    height: 85vh;
+    background-image:url(../images/Links/on-demand.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 5rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/on-demand.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 90%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+    }
+}
+
+.facilitation {
+    height: 85vh;
+    background-image:url(../images/Links/Facilitation.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 6.5rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/Facilitation.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 92%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+    
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+    }
+}
+
+.contactus {
+    height: 85vh;
+    background-image:url(../images/Links/Contact-us.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 6rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/Contact-us.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 90%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+    
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+    }
+}
+
+.opportunities {
+    height: 85vh;
+    background-image:url(../images/Links/Job-Oppurtunities.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin-top: 6rem;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 75vh;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+        background-image:url(../images/Links/Job-Oppurtunities.jpg);
+        // linear-gradient(
+        //     to right bottom,
+        //     rgba($color-primary-light, 0.8),
+        //     rgba($color-primary-dark, 0.8)),
+    }
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 30vh;
+    }
+
+    @include respond(tab-port) {
+        height: 22vh;
+        margin-top: 14rem;
+    }
+
+    // @include respond(tab-land) {
+    //     height: 30vh;
+    // }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 93.5%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(phone) {
+            left: 30%;
+            top: 14rem;
+        }
+
+        @include respond(tab-port) {
+            left: 30%;
+            top: 14rem;
+        }
+    }
+}
+

@@ -1,0 +1,779 @@
+@font-face{
+    font-family: century-bold;
+    src: url("../css/fonts/GOTHICB0.TTF");
+}
+
+@font-face{
+    font-family: century-light;
+    src: url("../css/fonts/century-light.TTF");
+}
+.composition {
+    position: relative;
+
+    &__photo {
+        width: 55%;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 2px;
+        position: absolute;
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 2rem;
+
+        @include respond(tab-port) {
+            float: left;
+            position: relative;
+            width: 33.33333333%;
+            box-shadow: 0 1.5rem 3rem rgba($color-black, .2);
+        }
+
+        &--p1 {
+            left: 0;
+            top: -2rem;
+
+            @include respond(tab-port)  {
+                top: 0;
+                transform: scale(1.2);
+            }
+        }
+
+        &--p2 {
+            right: 0;
+            top: 2rem;
+
+            @include respond(tab-port)  {
+                top: -1rem;
+                transform: scale(1.3);
+                z-index: 100;
+            }
+        }
+
+        &--p3 {
+            left: 20%;
+            top: 10rem;
+
+            @include respond(tab-port)  {
+                top: 1rem;
+                left: 0;
+                transform: scale(1.1);
+            }
+        }
+
+        &:hover {
+            outline: 1.5rem solid $color-primary;
+            transform: scale(1.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+            z-index: 20;
+        }
+
+    }
+
+    &:hover &__photo:not(:hover) {
+        transform: scale(.95);
+    }
+
+    &__img {
+        width: 100%;
+    }
+    //composition:hover composition__photo:not(:hover) {
+}
+
+.content-first-p {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 0;
+    // font-family: century-bold;
+}
+
+.list-content {
+    border-radius: 2rem;
+    border: .2rem solid $color-primary;
+    padding-top: 1.4rem;
+    padding-right: 2rem;
+    font-family: century-bold;
+    -webkit-box-shadow: .3rem .3rem .4rem .2rem $color-grey-dark-21;
+    -moz-box-shadow: 3px 3px 4px 2px $color-grey-dark-21;
+    -o-box-shadow: 3px 3px 4px 2px $color-grey-dark-21;
+    -ms-box-shadow: 3px 3px 4px 2px $color-grey-dark-21;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: .3rem;
+    margin-right: .8rem;
+    font-size: 1.3rem;
+
+    @include respond(tab-port){
+        text-align: left;
+    }
+}
+
+.demand {padding: 1rem;}
+.ondemandh2{padding: 0;}
+
+.content {
+    font-size: 1.3rem;
+}
+
+.sidebar-content{
+
+    position: relative;
+    width: 29.2rem;
+    height: 35rem;
+    border-radius: 2rem 2rem;
+    border: .1rem solid $color-primary;
+    margin: 0 auto;
+    color: $color-black;
+    -webkit-box-shadow: .3rem .3rem .4rem .2rem $color-grey-dark-21;
+    -moz-box-shadow: 3px 3px 4px 2px $color-grey-dark-21;
+    -o-box-shadow: 3px 3px 4px 2px $color-grey-dark-21;
+    -ms-box-shadow: 3px 3px 4px 2px $color-grey-dark-21;
+    overflow: hidden;
+    
+}
+.siderbar-content-new {
+    position: absolute;
+    width: 27rem;
+    height: auto;
+    background: $color-grey-dark-5;
+    padding: 2.5rem;
+    height: 35rem;
+    color: $color-black;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    text-align: justify; 
+}
+.siderbar-content-new p{
+    font-family: century-bold;
+
+}
+#Our-Team {
+    border: .1rem solid $color-white;
+    overflow: hidden;
+    height: 33.5rem;
+    width: 19.2rem;
+    margin: 1rem auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+
+.no-our-clients{
+    border: .2rem solid $color-primary;
+    height: 25rem;
+    width: 35rem;
+    border-radius: 2rem 2rem;
+    margin: 2rem 5.5rem;
+    overflow: hidden;
+    margin-left: 25px;
+    vertical-align: middle;
+    padding: 2rem;
+    padding-top: 4rem;
+    margin-top: 10rem !important;
+
+    @include respond(tab-port){
+        margin-left: -3px;
+        // margin-top: 4rem;
+    }
+}
+
+.carousel-item img {
+    width: 15;
+    height: 15;
+    
+}
+
+.no-padding {
+    border: .2rem solid $color-primary;
+    height: 39rem;
+    width: 22rem;
+    border-radius: 2rem 2rem;
+    margin-top: 4rem;
+
+    @include respond(tab-port){
+        width: 33rem;
+    }
+
+    @include respond(tab-land){
+        width: 34rem;
+    }
+
+}
+.names {
+    color: $color-primary;
+    font-family: century-bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.text-justify-director {
+    // padding-left: 3rem;
+    font-size: 1.4rem;
+
+}
+.director-title {
+    font-family:century-bold;
+    
+}
+
+.list-content h3,
+.list-content h2 {
+    text-transform: uppercase;
+    padding: 0; 
+    font-size: 1.5rem;
+    padding-left: 1.1rem;
+    font-family: century-bold;
+    color: $color-grey-dark-4;
+}
+.list-content ul{
+    /* margin: 0; */
+    padding-left: 3rem;
+}
+
+.list-content ul li {
+    padding-bottom: 1rem;
+}
+.sidebar-image img{
+    height: auto;
+    width: 100%;
+}
+
+.img-fluid {
+    width:  100%;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.float-left {
+ margin-left: 2rem;
+}
+#Them {
+    width: 20%;
+    height: auto;
+    display: inline-grid;
+}
+#LeftContent {
+    float: right;
+    top: -97rem;
+}
+
+.sidebar-content-vide {
+    position: absolute;
+    width: 3rem;
+    left: 26.3rem;
+    height: 35rem;
+    background-color:$color-grey-dark-4;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.Team {
+    height: 3rem;
+    width: 10rem;
+    background: $color-primary;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 1rem;
+    color: $color-white;
+    margin-left: -1.7rem;
+    text-align: center;
+    font-family: century-light;
+    line-height: 3.5rem;
+    font-size: 1.4rem;
+}
+.marun-background {
+    height: 50px;
+    background: $color-primary;
+    border-top-right-radius: 2rem;
+}
+
+
+.list-content-learning ul li{
+   /* list-style-type: circle; */
+   padding-left: 1.7rem; 
+}
+
+.project {
+    padding: 0;
+    margin-top: 2.6rem;
+    margin-right: 2.9rem;
+}
+ .project h2,
+ .project li{
+    color: $color-primary;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22rem0px;
+    padding-bottom: 1.5rem;
+    font-family: century-bold;
+ }
+
+ .project h2 {
+     font-size: 2rem;
+     
+ }
+ .manager-project{
+    padding-top: 1rem;
+ }
+
+
+ #training-img1{
+    width: 50%;
+}
+
+#training-img1 img{
+    width: 100%;
+}
+
+#orginisational-img{
+         width: 47%;
+    margin-left: 16px;
+}
+
+#orginisational-img img{
+    width: 100%;
+    /* margin-left: 304px; */
+}
+ 
+#individual-img {
+    width: 52%;
+    margin-left: -9px;
+}
+#individual-img img{
+    width: 100%;
+    /* margin-left: 308px; */
+}
+#team-img{
+    width: 50%; 
+    /* margin-left: 324px */
+}
+
+#team-img img{width: 100%}
+
+#organisationalevel{
+    position: absolute;
+    top: -406px;
+    left: 604px;
+    display: none;
+}
+
+#teamlevel {
+    position: absolute;
+    top: -330px;
+    left: 623px;
+    display: none;
+}
+
+#individual-level {
+    position: absolute;
+    top: -300px;
+    left: 634px;
+    display: none;
+}
+
+.training-list {
+    background: #5F050E;
+    color: aliceblue;
+    line-height: normal;
+    padding-left: 39px;
+    margin-top: 71px;
+    width: 383px;
+    position: relative;
+    border-radius: .4em;
+    font-size: 13px;
+    padding: 2rem;
+    line-height: inherit;
+    text-align: left;
+
+    @include respond(tab-port){
+
+        .training-list {
+            
+            padding-left: 34px;
+            width: 297px;
+            padding: 10px;
+            height: 256px;
+            margin-left: -20px;
+            font-size: 10px;
+        }
+    }
+    
+}
+.margin-left{
+    margin-left: 1.5rem;
+}
+
+// .individual-level{width: 55rem;}
+
+.training-list h3{
+    font-size: 16px;
+}
+
+.training-list:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 50px;
+    height: 0;
+    border: 2.781em solid transparent;
+    border-right-color: #5F050E;
+    border-left: 0;
+    margin-top: 0.219em;
+    margin-left: -3.781em;
+}
+
+#teamlevel:after{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 66%;
+    width: 50px;
+    height: 0;
+    border: 2.781em solid transparent;
+    border-right-color: #5F050E;
+    border-left: 0;
+    margin-top: 0.219em;
+    margin-left: -3.781em;
+
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    padding: .8rem 0rem;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+        font-family: century-bold;
+        color: #696B6B;
+}
+
+
+.navbar-expand-lg ul li a {
+    text-transform: uppercase;
+    padding: 5px;
+    padding-right: 10px;
+    text-decoration: none; }
+
+.bg-light {border-bottom: 10px solid #5F050E;padding: 10px;background-color: $color-white !important;}
+
+.navbar-light .navbar-nav .nav-link {
+
+  color: #5F050E;
+  font-weight: 600;
+  font-size: 16px;
+  border-right: 2px solid #5F050E;
+  padding: 0;
+  padding-right: 10px;
+  line-height: 1;
+  margin-right: 10px;
+
+  @include respond(tab-port){
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    
+        border-right: 0;
+    line-height: 2em}
+    
+    .navbar-nav {
+        background-color: #5F050E;
+        padding-left: 50px;
+        font-size: 16px;
+       
+    }
+        
+        .navbar-expand-lg .navbar-brand {
+    
+            display: block;
+        }
+  }
+}
+
+.navbar-light .navbar-nav .nav-item .active,
+.navbar-light .navbar-nav .nav-link:focus{
+  
+  font-family: century-bold;
+  color:#696B6B;
+}
+
+.navbar-light .navbar-nav .contact{
+  border-right: 0 !important;
+}
+
+
+.navbar-expand-lg ul li{
+  margin-top: 10px;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+  display: none;
+  width: 200px;}
+
+  .navbar-brand img{
+      width: 100%;
+  }
+
+.training-group-container {
+    position: relative;
+}
+
+#training-image {
+    width: 100%;
+    margin: 1px 126px;
+    padding-bottom: 20px;
+}
+.sidebar-image-middle{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.training-list ul li:nth-child(1){
+    padding-top: 0;
+}
+#content-contact .managercontact .GAUTENG{
+    font-family: century-bold;
+    font-size: 12px;
+}
+#content-contact h2{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 0em;
+    padding-top: 2rem;
+    padding-bottom: .8rem;
+    font-family: century-bold;
+    // text-align: left;
+}
+#content-contact a {
+    color: #5F050E;
+    text-decoration: none;
+}
+
+#content-contact .training-contact,
+#content-contact .westerncape-contact {
+    border-left: .2rem solid #5F050E;
+    padding-left: 3rem;
+    margin-left: -17.4rem;
+
+    @include respond(tab-port){
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+#content-contact span {
+    display: block;
+    line-height: normal;
+}
+#content-contact .westerncape-contact {
+    margin-top: 2.5rem;
+
+    @include respond(tab-port){
+        margin-top: -2.5rem;
+    }
+
+    h2{
+        padding-bottom: .1rem;
+    }
+
+}
+
+#content-contact {font-size: 1.5rem;}
+
+@include respond(tab-port){
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    
+        border-right: 0;
+    line-height: 2em}
+
+     .navbar-brand{
+        display: block;
+    } 
+    
+    .navbar-nav {
+        background-color: #5F050E;
+        padding-left: 50px;
+       
+    }
+    .bg-light {
+        padding: 0px;
+    }
+    .bg-light{
+        margin-left: -11px;
+        margin-right: -9px;
+    }
+        .logo {
+            padding: 15px;
+            width: 49%;
+        }
+
+    
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+        background: rgba(212, 210, 207,.9);
+        font-family: century-bold;
+        color: #696B6B;
+    }
+
+
+iframe {
+    width: 285px;
+}
+
+.navbar-expand-lg .navbar-toggler img{    
+    margin-right: 1.9rem;
+}
+
+.navbar-expand-lg .navbar-brand{
+    display: inline-block;
+    width: 60%;
+    
+}
+
+.content-first-p{
+    font-weight: 100;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#consultation .content-home {
+    margin: -18px 22px;
+
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.project li {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+#opportunities .opportunities-banner{
+    margin-left: 15px;
+    margin-right: -18px;
+    margin-top: 10rem;
+}
+
+#opportunities .content-home{
+    margin: -25px 3px;
+    
+}
+.button-group a {
+    display: block;
+    margin: 4px;
+    width: 137px;
+}
+
+.list-content{
+    font-family: century-bold;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#orginisational-img {
+    width: 50%;
+    margin-left: -1px;
+}
+
+.list-content-learning ul li {
+    /* line-height: 1.5em; */
+    /* font-weight: normal; */
+    font-size: 14px;
+}
+
+#training-image {
+    margin: 0;
+    padding-bottom: 0;
+    margin-top: -4rem;
+} 
+
+#training-img1{
+    width: 100%;
+}
+
+#training-img1 img{
+    width: 100%;
+}
+
+#orginisational-img{
+    width: 98%;
+    margin-left: 1px;
+}
+
+ 
+#individual-img {
+    width: 109%;
+    margin-left: -11px;
+}
+
+#team-img{
+    width: 104%;
+    margin-left: -5px;
+}
+#team-img img{width: 100%}
+#organisationalevel{
+    position: absolute;
+    top: -387px;
+    left: 5px;
+    display: none;
+}
+
+#teamlevel {
+    position: absolute;
+    top: -367px;
+    left: 6px;
+    display: none;
+}
+
+#individual-level {
+    position: absolute;
+    top: -345px;
+    left: 10px;
+    display: none;
+}
+footer{
+    padding-right: 12px;
+}
+
+.training-list {
+
+    padding-left: 34px;
+    width: 297px;
+    padding: 10px;
+    height: 256px;
+    margin-left: -20px;
+    font-size: 10px;
+}
+}
+.contact {padding: 0;}
+.u-margin-left {
+    margin-left: -10rem;
+
+    @include respond(tab-port){
+        margin-left: 0rem;
+    }
+}
+
+.u-margin-bottom-small-contact{
+    margin-bottom: 3rem !important;
+    @include respond(tab-port){
+        margin-bottom: 0 !important;
+    }
+}
+.navbar-toggler {border: 0 !important;}
+
+.contact-left{ 
+    @include respond(tab-port){
+        margin-top: -9rem;
+        padding-left: 6rem;
+    }   
+    
+}
+
+// .margin-top-big {
+//     @include respond(tab-port){
+//         margin-top: 5rem;
+//     }
+// }

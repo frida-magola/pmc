@@ -1,0 +1,1778 @@
+@font-face{
+    font-family: century-regular;
+    src: url("fonts/century-regular.ttf");
+    
+}
+@font-face{
+    font-family: century-light;
+    src: url("fonts/century-light.TTF");
+}
+@font-face{
+    font-family: century-bold;
+    src: url("fonts/GOTHICB0.TTF");
+}
+html,body{
+    font-size: 15px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    
+    text-align: 
+    ustify;
+    line-height: 21px;
+    color: #696B6B;
+    position: relative;
+    width: 100%;
+    font-family: century-regular;
+    /* overflow-x: hidden; */
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+figcaption { 
+    display: block;
+    font-size: 1rem;
+    color: #5F050E;;
+    font-family: century-bold;
+    text-transform: uppercase;
+    text-align: left ;
+}
+
+.director {
+    display: flex;
+    flex-direction: row;
+}
+p*{font-family: century-light !important;}
+h1,h2,h3,h4,h5,h6{font-family: century-regular;}
+.content-home h1,h2{color: #fff;}.content-home span{font-size: 20px; font-weight: 400}
+.container {padding: 0;}
+.col-lg-7{ margin-top:27px;}
+
+
+.navbar-expand-lg ul li a {
+      text-transform: uppercase;
+      padding: 5px;
+      padding-right: 10px;
+      text-decoration: none; }
+
+.bg-light {border-bottom: 10px solid #5F050E;padding: 10px;}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: #5F050E;
+    font-weight: 600;
+    font-size: 16px;
+    border-right: 2px solid #5F050E;
+    padding: 0;
+    padding-right: 10px;
+    line-height: 1;
+    margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-item .active,
+.navbar-light .navbar-nav .nav-link:focus{
+    
+    font-family: century-bold;
+    color:#696B6B;
+}
+
+.navbar-light .navbar-nav .contact{
+    border-right: 0 !important;
+}
+
+
+.navbar-expand-lg ul li{
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+    display: none;
+    width: 200px;}
+
+    .navbar-brand img{
+        width: 100%;
+    }
+.col-lg-7{
+    margin-bottom: 9rem;
+}
+
+#learning .col-lg-7{
+    margin-bottom: 0;
+}
+
+#learning #training-image{
+    margin-bottom: 9rem;
+}
+
+#opportunities .sidebar-content {
+    margin-bottom: 9rem;
+}
+#contact{
+    height: 800px;
+    padding-bottom: 60px;
+}
+
+.bs-component span {
+    display: block;
+    line-height: normal;
+}
+
+.bs-component .jumbotron h1 {
+    color: #000; font-weight: 400;letter-spacing: .2em;
+}
+
+.btn-uploadcv {
+    width: 200px;
+    font-size: 18px;
+
+}
+
+
+.logo {
+    /* width: 445px;
+    position: absolute;
+    top: 92px;
+    left: 60px; */
+    padding: 83px;
+    width: 41%;
+}
+
+.logo img{width: 100%;}
+
+.content-home {
+      /* position: absolute;
+      left: 60px;
+      top: 400px; */
+      padding-top: 32%;
+      padding-bottom: 2%;
+      margin:0 98px;
+
+}
+
+#consultation .content-home{
+    padding-top: 30%;
+}
+
+#learning .content-home{
+    padding-top: 31%;
+}
+
+.sidebar-image{margin-left: 52px;margin-top: 20px;}
+
+.content-home a {
+    background: #5F050E;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px;
+    font-family: century-regular;
+    letter-spacing: 2px;
+}
+#opportunities .content-home{
+    padding-top: 33%;
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#learning .bs-component .content-first-p{
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(105, 107, 107,0.6);
+    border:1px solid #f2f2f2;
+}
+
+#resourcing .content-home .button-group .opportunities-btn:hover{
+    background-color: rgb(105, 107, 107);
+}
+    
+.content-first-p {
+    font-size: 17px;
+    font-weight: 900;
+    padding-bottom: 0;
+    line-height: 21px;
+}
+.list-content {
+    border-radius: 20px;
+    border: 2px solid #5F050E;
+    padding-top: 14px;
+    padding-right: 20px;
+    font-family: century-bold;
+    -webkit-box-shadow: 3px 3px 4px 2px #888;
+    -moz-box-shadow: 3px 3px 4px 2px #888;
+    -o-box-shadow:3px 3px 4px 2px #888;
+    -ms-box-shadow: 3px 3px 4px 2px #888888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+.list-content h3,
+.list-content h2 {
+    text-transform: uppercase;
+    padding: 0; 
+    font-size: 15px;
+    padding-left: 11px;
+    font-family: century-bold;
+    color: #696B6B;
+}
+.list-content ul{
+    /* margin: 0; */
+    padding-left: 30px;
+}
+
+.list-content ul li {
+    padding-bottom: 10px;
+}
+.sidebar-image img{
+    height: auto;
+    width: 100%;
+}
+
+.sidebar-content{
+
+    position: relative;
+    width: 292px;
+    height: 350px;
+    border-radius: 20px 20px;
+    border: 1px solid #5F050E;
+    margin: 0 auto;
+    -webkit-box-shadow: 3px 3px 4px 2px #888;
+    -moz-box-shadow: 3px 3px 4px 2px #888;
+    -o-box-shadow: 3px 3px 4px 2px #888;
+    -ms-box-shadow: 3px 3px 4px 2px #888888;
+    overflow: hidden;
+    
+}
+.siderbar-content-new {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    background: #C5C4C4;
+    padding: 25px;
+    height: 350px;
+    color: #000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: justify; 
+}
+.siderbar-content-new p{
+    font-family: century-bold;
+
+}
+#Our-Team {
+    border: 1px solid white;
+    overflow: hidden;
+    height: 400px;
+    width: 192px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+.no-our-clients{
+    border: 2px solid #5F050E;
+    height: 375px;
+    width: 395px;
+    border-radius: 20px 20px;
+    margin: 2rem 5.5rem;
+    overflow: hidden;
+}
+
+.no-padding {
+    border: 2px solid #5F050E;
+    height: 375px;
+    width: 220px;
+    border-radius: 20px 20px;
+
+}
+.names {
+    color: #5F050E;
+}
+
+.text-justify-director {
+    padding-left: 30px;
+    font-size: 14px;
+
+}
+.director-title {
+    font-family:century-bold;
+    
+}
+.text-left {
+    color: #5F050E;
+    margin-left: 20px;
+
+}
+.img-fluid {
+    width:  100%;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.float-left {
+ margin-left: 20px;
+}
+#Them {
+    width: 20%;
+    height: auto;
+    display: inline-grid;
+}
+#LeftContent {
+    float: right;
+    top: -970px;
+}
+strong {
+    color: black;
+    font-style: bold;
+}
+ 
+
+.sidebar-content-vide {
+    position: absolute;
+    width: 30px;
+    left: 263px;
+    height: 350px;
+    background-color:#696B6B;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Team {
+    height: 30px;
+    width: 100px;
+    background: #5F050E;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    margin-left: -17px;
+    text-align: center;
+}
+.marun-background {
+    height: 50px;
+    background: #5F050E;
+    border-top-right-radius: 20px;
+}
+
+
+.list-content-learning ul li{
+   /* list-style-type: circle; */
+   padding-left: 17px; 
+}
+
+.project {
+    padding: 0;
+    margin-top: 26px;
+    margin-right: 29px;
+}
+ .project h2,
+ .project li{
+    color: #5F050E;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: century-bold;
+ }
+
+ .project h2 {
+     font-size: 25px;
+     
+ }
+ .manager-project{
+    padding-top: 10px;
+ }
+
+ #consultation .content-first-p{
+     margin-top: 25px;
+ }
+
+ #ondemand .list-content p,
+ #ondemand .list-content h2{
+    padding-left: 17px;
+ }
+
+ #content-contact .bs-component h2{
+     font-family: century-bold;
+     color: #696B6B;
+     line-height: 0.2;
+ }
+
+ #content-contact .jobcontact{
+     padding-top: 14px;
+ }
+ #content-contact .managercontact .GAUTENG{
+     font-family: century-bold;
+     font-size: 12px;
+ }
+ 
+.list-content-learning ul li{
+    line-height: 1.5em;
+    font-weight: normal;
+    font-size: 15px;
+    font-family:century-regular;
+}
+.list-content-learning ul {
+    padding-top: 10px;
+}
+
+.list-content-learning h4{
+    font-size: 15px;
+    font-weight: 900;
+    font-family:century-bold;
+    padding-top: 10px;
+    
+}
+#resourcing .container{height: 400px;}
+.content-training,
+#sidebar-image-middle{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+    padding: 0px;
+    margin-left: -75px;
+    margin-top: 81px;
+    height: 160px;
+}
+
+.training-list {
+    background: #5F050E;
+    color: aliceblue;
+    line-height: normal;
+    padding-left: 39px;
+    margin-top: 71px;
+    width: 383px;
+    position: relative;
+    border-radius: .4em;
+    font-size: 13px;
+    padding: 15px;
+    line-height: inherit;
+    text-align: left;
+    
+}
+
+.training-list h3{
+    font-size: 13px;
+}
+
+.training-list:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 50px;
+    height: 0;
+    border: 2.781em solid transparent;
+    border-right-color: #5F050E;
+    border-left: 0;
+    margin-top: 0.219em;
+    margin-left: -3.781em;
+}
+
+#teamlevel:after{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 66%;
+    width: 50px;
+    height: 0;
+    border: 2.781em solid transparent;
+    border-right-color: #5F050E;
+    border-left: 0;
+    margin-top: 0.219em;
+    margin-left: -3.781em;
+
+}
+
+
+
+
+.content-uploadcv {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.btn-uploadcv {
+    background: #696B6B;
+    color: #fff;
+    width: 250px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding: 15px;
+    
+}.btn-uploadcv a {
+    color: #fff;
+    text-decoration: none;
+    font-family: century-regular;
+}
+.btn-uploadcv:hover{
+    background: #5F050E;
+}
+
+.btn-uploadcv-input{
+    background: #5F050E;
+    width: 250px;
+    border-radius: 20px 20px;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+#facilitation .content-home{
+    padding-top: 32%;
+}
+#ondemand .content-home{
+    padding-top: 30%;
+}
+
+.container.bs-component span,{
+    display: block;
+}
+.image-medias-footer {
+    padding-left: 0px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;}
+
+    .content-footer {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+        line-height: 21px;
+        text-align: center;
+        padding: 0px;
+    }
+
+.content-contact h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#content-contact .bs-component a {
+    color: #5F050E;
+    text-decoration: none;
+}
+
+#content-contact .training-contact,
+#content-contact .westerncape-contact {
+    border-left: 2px solid #5F050E;
+    padding-left: 30px;
+    margin-left: -64px;
+}
+
+#footer {
+    background: #696B6B;bottom: 0;padding: 10px;
+}
+.image-medias-footer{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.image-medias-footer a img {
+    padding-left: 10px;
+    padding-top: 10px;
+    
+   
+}
+
+.content-footer{
+    color: #eee;
+    padding-top: 10px;
+    line-height: 1em;
+    text-align: left;
+    padding-left: 84px;
+    font-size: 11px;
+}
+.content-footer a{
+    color: #eee;
+    text-decoration: underline;
+}
+
+.dittohire-img{
+    background-color: rgba(); 
+    width: 350px; 
+    padding-right: 10px;
+    margin-left: 76px;
+    margin-top: 50px;
+}
+.carousel-marge{margin-left: -76px;}
+
+
+
+#form-upload {
+    display: none
+}
+
+fieldset {
+    border: 1px solid #5F050E;
+    border-radius: 20px 20px;
+    line-height: 4em;
+    padding: 20px;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+}
+
+input[type='file']{
+color: #eee;
+background: #5F050E;
+
+}
+.form-group {
+    padding: 0px;
+}
+
+legend {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form {
+    display: block;
+}
+
+
+#home .home-banner{
+    background:url('../images/Links/first-page.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top: 75px;
+    /* -webkit-linear-gradient(rgba(255,255,255,.5),rgba(0, 0, 0,0.3)), */
+}
+#home, #consultation, #learning,{
+    margin-bottom: 7rem;
+    margin-top: 1rem
+}
+
+#directors .directors-banner {
+    background:url('../images/Links/Our-directors.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top: 65px;
+}
+#consultation .consultation-banner{
+    background:url('../images/Links/Consultation.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top:70px;
+}
+#consultation .content-home a,
+#learning .content-home a {
+    margin-top: 20px;
+}
+#contact .content-home a {margin-top: -10px;}
+
+#consultation .col-lg-7,
+#learning .col-lg-7{margin-top: 0}
+
+#learning .learning-banner{
+    background:url('../images/learning.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 75px;
+    /* -webkit-linear-gradient(rgba(255,255,255,.5),rgba(0, 0, 0,0.3)), */
+}
+#learning .bs-component p{
+    line-height: 22px;
+    /* letter-spacing: 10px; */
+}
+#resourcing .resourcing-banner{
+    background:url('../images/Links/Resourcing.jpg') no-repeat center top;
+    background-size: 100%;
+    position: relative;
+    margin-top: 75px;;
+}
+.bs-component .team-project{
+    margin-bottom: 7rem;
+}
+
+#opportunities .opportunities-banner {
+    background:url('../images/Links/Job-Oppurtunities.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top: 75px;
+}
+
+#ondemand .ondemand-banner {
+    background:url('../images/Links/on-demand.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top: 65px;
+    padding-bottom: 2rem;
+ } 
+
+
+#facilitation .facilitation-banner {
+    background:url('../images/Links/Facilitation.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top: 5rem;
+}
+
+#contact .contact-banner {
+    background:url('../images/Links/Contact-us.jpg') no-repeat center top;
+    background-size: 100%;
+    margin-top: 3rem;
+
+}
+#contact .westerncape-contact {
+    margin-top: 17px;
+}
+
+#contact .map-padding{
+
+    margin-left: -64px;
+}
+
+.modal-content {
+    background-color: #696B6B;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.button-group{
+    display: inline-block;
+    float:right;
+    margin-right: 46px;
+    margin-top: -18px;
+}
+.button-group button{
+    margin-right: 10px;
+}
+.carousel {
+    
+    /* height: 235px;
+    left: -29px; */
+    margin-top: 5rem;
+}
+
+.carousel-inner {
+    width: 325px;
+    margin: 0 164px;
+    height: inherit !important;
+}
+
+/* .carousel-item.w-100{
+    width: 30%;
+} */
+
+.carousel-item img{
+    width: 70%;
+    height: 60%;
+}
+
+
+
+.dittohire-img{
+    background-color: rgba(36, 35, 35,0.6); 
+    width: 350px; 
+    padding-right: 10px;
+    margin-left: 76px;
+    margin-top: 50px;
+}
+
+
+
+/* ipad
+@media only screen and (max-width:768px){
+
+  
+
+} */
+
+/* Queries mobal
+@media only screen and (max-width:568px){
+
+  
+
+} */
+
+/* @media only screen and (max-width:375px){
+
+} */
+/* 
+@media only screen and (max-width:320px){
+       
+} */
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  
+} */
+/* large ipad Pro */
+
+
+/* @media(min-width:569px)and(max-width:769){
+    } */
+
+
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+        .text {font-size: 11px}
+        .text-justify{font-size: 11px;
+        }
+        #ondemand .ondemand-banner{
+            margin-top: 186px;
+        }
+        #facilitation .facilitation-banner{
+            margin-top: 8rem;
+        }
+        #resourcing .resourcing-banner{
+            margin-top: 11rem;
+        }
+        #contact .contact-banner{
+            margin-top: 125px;
+        }
+        #contact .content-home a {
+         margin-top: 0; 
+        }
+        #content-contact .col-lg-7 {
+         margin-left: 0; 
+        }
+        
+        #contact .col-lg-5 {
+         padding-left: 0; 
+        }
+        
+        .sidebar-content {
+        margin: 0 5px;
+        }
+        
+        #resourcing .resourcing-banner .content-home .connectbtn {
+        width: 190px;
+        }
+        #resourcing .content-home .connectbtn {
+        margin-top: -9px;
+        }
+        #resourcing .content-home .button-group {
+            margin-top: -52px;}
+        
+        #learning .learning-banner {
+        margin-top: 124px;
+        }
+        #organisationalevel {
+        left: -9px;
+        }
+        #teamlevel {
+            left: -7px;}
+        #individual-level{
+            left: -11px;
+        }
+        #consultation .consultation-banner {
+        margin-top: 9rem;
+        }
+        #home .home-banner {
+            margin-top: 114px;
+        }
+        
+        .col-lg-5 {
+         padding-left: 0; 
+        }
+        
+         .sidebar-image {
+            margin-left: 1rem;
+            margin-bottom: 33px;
+        }
+        
+        #contact .sidebar-image {
+    
+            margin-top: -3rem;
+        }
+        
+        #contact .contact-banner {
+            margin-top: 116px;
+            }
+            #directors .directors-banner{
+                margin-top: 116px;
+            }
+            #content-contact {
+                margin: 0 6px;
+            }
+            #contact .sidebar-image {
+                margin-left: -1rem;
+                margin-bottom: 0;
+            }
+            #facilitation .facilitation-banner{
+                margin-top: 7rem;
+            }
+            .sidebar-content{
+                width: 270px;
+                margin: 0 0px;
+            }
+            .siderbar-content-new{
+                width: 238px;
+            }
+            .sidebar-content-vide {
+                left: 238px;
+            }
+            #ondemand .ondemand-banner {
+                margin-top: 176px;
+            }
+            #opportunities .opportunities-banner{
+                margin-top: 9rem;
+            }
+            #opportunities .bs-component .btn {
+                margin-left: 0;
+            }
+            #opportunities .content-home {
+            margin: -25px 15px;
+            }
+            
+            #resourcing .resourcing-banner {
+            margin-top: 10rem;
+            }
+            #resourcing .resourcing-banner .content-home .connectbtn {
+            width: 161px;
+            }
+            .resourcing-banner .content-home {
+            padding-top: 92px;
+            }
+            .dittohire-img {
+                width: 262px;}
+            #learning .learning-banner {
+            margin-top: 111px;
+            }
+            #organisationalevel, #teamlevel, #individual-level {
+                left: -26px;
+            }
+            #consultation .consultation-banner {
+            margin-top: 8rem;
+            }
+            #consultation .content-home {
+            padding-top: 114px;
+            }
+            #home .home-banner {
+            margin-top: 103px;
+            }
+            
+            .content-home {
+                padding-top: 73px;
+                margin-left: 0px;
+               
+            }
+         .content-home a {
+            width: 40%;
+            font-size: 11px;
+         }
+            .content-first-p{
+             font-size: 15px;
+             width: 100%;
+             padding-left: 30px;
+             padding-right: 30px;
+             font-weight: 300;
+            }
+            .content .about {
+             font-size: 12px;
+             width: 100%;
+             text-align: justify;
+             padding-left: 30px;
+             padding-right: 30px;
+            }
+            .list-content{
+            font-size: 11px;
+            width: 85%;
+            margin-left: 30px;
+            }
+            #LOgo {
+                width: 70%;
+                margin-left: 50px;
+                margin-top: -220px;
+
+            }
+            .no-padding {
+                width: 55%;
+                margin-top: -80px;
+                height: 120%;
+            }
+            .bs-component .directors-banner {
+                max-width: 100%;
+                margin-top: -920px;
+            }
+            .no-padding .img-fluid {
+                width: 60%;
+                margin-left: 40px;
+            }
+            .container-fluid  #Them {
+             margin-top: -140px;
+            }
+            .container-fluid .text-justify {
+               font-size: 11px;
+               margin-left: -190px;
+               margin-top: 150px;
+               width: 150%;
+            }
+        .container-fluid  #Gloria {
+            float: right;
+            margin-top: -420px;
+            margin-right: 20px;
+            font-size: 25px;
+
+        }
+        .container-fluid  #Eloff {
+            float: right;
+            margin-top: -430px;
+            margin-right: 140px;
+            margin-right: 80px;
+            font-size: 25px;
+
+        }
+        .container-fluid   #Desiree {
+            float: right;
+            margin-top: -650px;
+            margin-right: 80px;
+            font-size: 25px;
+        }
+        .container-fluid   #Natasha {
+            float: right;
+            margin-top: -400px;
+            margin-right: 20px;
+            font-size: 25px;
+        }
+        #Second {
+        margin-top: -250px;
+
+        }
+        #seed {
+           margin-left: 50px; 
+        }
+        #Consult {
+            font-size: 11px;
+            width: 85%;
+            padding-left: 40px;
+        }
+    }
+
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .content-footer{
+            padding-right: 11px;
+            padding-left: 67px;
+            line-height: 1.5em;
+        }
+  
+        #contact .map-padding{
+
+            margin-left: 0;
+        }
+    
+        .dittohire-img {
+            width: 272px;
+            margin-bottom: 53px;
+            padding-right: 10px;
+            margin-left: 13px;
+            margin-top: 25px;
+        }
+    
+        html,body{overflow-x: hidden;
+        font-size: 14px; width: 100%;
+    text-align: left;}
+    
+        .navbar-light .navbar-nav .nav-link {
+            color: #fff;
+        
+            border-right: 0;
+        line-height: 2em}
+    
+         .navbar-brand{
+            display: block;
+        } 
+        
+        .navbar-nav {
+            background-color: #5F050E;
+            padding-left: 50px;
+           
+        }
+        .bg-light {
+            padding: 0px;
+        }
+        .bg-light{
+            margin-left: -11px;
+            margin-right: -9px;
+        }
+            .logo {
+                padding: 15px;
+                width: 49%;
+            }
+    
+            #facilitation .col-lg-7{
+                margin-top: 0;
+            }
+    
+            #resourcing .resourcing-banner, #ondemand .ondemand-banner {
+                margin-bottom: 0px;
+                margin-left: 30px;
+                margin-right: 0px;
+                margin-top: 72px;
+            }
+            #directors .directors-banner{
+                margin-top: 125px;
+            }
+    
+        #home .home-banner {
+            margin-top: 125px;
+            margin-left: 14px;
+            margin-right: 0px;
+        }
+    
+        #consultation .consultation-banner{
+            margin-left: 8px;
+            margin-right: -31px;
+            margin-top: 10rem;
+        }
+    
+        .content-home {
+            margin: 0 20px;
+            padding-top: 85px;
+        }
+        
+        .resourcing-banner .content-home {
+            padding-top: 108px;
+        }
+        .content-home a {
+            width: 115px;
+            font-size: 11px;
+            font-family: century-regular;
+            height: 20px;
+            padding-bottom: 26px;
+        }
+        
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+            background: rgba(212, 210, 207,.9);
+            font-family: century-bold;
+            color: #696B6B;
+        }
+    
+        .container {
+            padding-right: 42px;
+            padding-left: 42px;
+            font-size: 13px;
+            text-align: justify;
+    }
+    .sidebar-content {
+        margin: 0 -24px;}
+    
+    .opportunities-banner .content-home a,
+    .ondemand-banner .content-home a,
+    .facilitation-banner .content-home a{
+        margin-top: -10px;
+    }
+    
+    iframe {
+        width: 285px;
+    }
+    
+    #learning .content-home a {
+        margin-top: -7px;
+    /*    margin-bottom: 20px;*/
+    }
+    
+    .image-medias-footer {
+        text-align: center;
+    }
+    
+    .content-footer {
+        line-height: initial;
+        text-align: center;
+        padding-left: 0;
+    }
+    .navbar-expand-lg .navbar-toggler img{    
+        margin-right: -21px;
+    }
+    
+    .navbar-expand-lg .navbar-brand{
+        display: inline-block;
+        width: 60%;
+        
+    }
+    
+    .container-fluid {
+        width: 100%;
+        padding-right: 14px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .content-first-p{
+        font-weight: 100;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    #consultation .content-home {
+        margin: -18px 22px;
+    
+    }
+    #consultation .bs-component {
+    /*    margin-top: 0;*/
+            margin-right: 0rem;
+    }
+    #learning .content-home {
+    margin: -12px 22px;
+    }
+    
+    #resourcing .content-home{
+        margin: -46px 22px;
+    }
+    
+    #resourcing .content-home .button-group{
+           margin-top: -49px;
+        margin-right: -1px;
+    
+    }
+    #resourcing .content-home .button-group button{
+        width: 109px;
+    }
+    .button-group button {
+        margin-right: 0;
+        padding-left: 0;
+    padding-right: 0;
+    }
+        
+        #consultation .content-first-p {
+        margin-top: 12px;
+    }
+    
+    #resourcing .resourcing-banner{
+        margin-left: 20px;
+        margin-right: -18px;
+    }
+    
+    .project h2 {
+        font-size: 16px;
+    }
+    
+    .project h2, .project li {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    
+    #opportunities .opportunities-banner{
+        margin-left: 15px;
+        margin-right: -18px;
+        margin-top: 10rem;
+    }
+    
+    #opportunities .content-home{
+        margin: -25px 3px;
+        
+    }
+    .button-group a {
+        display: block;
+        margin: 4px;
+        width: 137px;
+    }
+    
+    #ondemand .content-home{  margin: -71px 75px;}
+    #ondemand .content-first-p{margin-top: 10px;}
+    #ondemand .list-content h2{color: #696B6B;}
+    #facilitation .content-home{    margin:0 18px;}
+    #contact .content-home{  margin: -12px 20px;}
+    #contact .contact-banner{
+        margin-left: 14px;
+        margin-right: -21px;margin-top: 137px;}
+        
+        #contact .map-padding{    padding-top: 18px;}
+    
+    #resourcing .resourcing-banner,
+    #ondemand .ondemand-banner{
+    margin-bottom: 37px;
+    margin-left: 14px;
+        margin-right: -14px;
+    
+    }
+        
+        #ondemand .ondemand-banner .content-home a{
+            width: 219px;;
+        }
+    
+    #ondemand .ondemand-banner {
+        margin-top: 197px;
+        margin-bottom: 52px;
+        margin-right: 0;
+    }
+    #learning .learning-banner{
+            margin-top: 132px;
+    }
+    #resourcing .content-home h1,
+    #consultation .content-home h1,
+    #home .content-home h1,
+    #learning .content-home h1,
+    #opportunities .content-home h1,
+    #ondemand .content-home h1,
+    #facilitation .content-home h1{
+    font-size: 24px;
+    }
+    
+    #opportunities .content-first-p{
+    padding-top: 20px;
+    }
+    #facilitation .content-first-p{
+    padding-top: 0px;
+    }
+    
+    #facilitation .facilitation-banner{
+        margin-left: 14px;
+        margin-right: -15px;
+        margin-top: 9rem;
+    
+    }
+     
+    
+    #content-contact .training-contact, #content-contact .westerncape-contact {
+        border-left: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #content-contact{margin: 0 20px;}
+    #ondemand .list-content h2{    color: #696b6b;}
+    .list-content{
+        font-family: century-bold;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #resourcing .col-md-6{
+        
+        margin-bottom: 19px;
+    
+    }
+    #resourcing .col-lg-5{
+        margin: 0 20px;
+    }
+    #orginisational-img {
+        width: 50%;
+        margin-left: -1px;
+    }
+    
+    .list-content-learning ul li {
+        /* line-height: 1.5em; */
+        /* font-weight: normal; */
+        font-size: 14px;
+    }
+    
+    #training-image {
+        margin: 1px 36px;
+        margin: 1px 36px;
+        padding-bottom: 0;
+    } 
+    
+    #training-img1{
+        width: 100%;
+    }
+    
+    #training-img1 img{
+        width: 100%;
+    }
+    
+    #resourcing .content-home .connectbtn {
+        margin-left: -18px;
+        margin-top: -5px;
+        width: 138px;
+        
+    }
+    #opportunities .content-home a{
+        width: 219px;
+    }
+    
+    #orginisational-img{
+        width: 98%;
+        margin-left: 1px;
+    }
+    
+     
+    #individual-img {
+        width: 109%;
+        margin-left: -11px;
+    }
+    
+    #team-img{
+        width: 104%;
+        margin-left: -5px;
+    }
+    #team-img img{width: 100%}
+    #organisationalevel{
+        position: absolute;
+        top: -387px;
+        left: 5px;
+        display: none;
+    }
+    
+    #teamlevel {
+        position: absolute;
+        top: -367px;
+        left: 6px;
+        display: none;
+    }
+    
+    #individual-level {
+        position: absolute;
+        top: -345px;
+        left: 10px;
+        display: none;
+    }
+    footer{
+        padding-right: 12px;
+    }
+    
+    .training-list {
+    
+        padding-left: 34px;
+        width: 297px;
+        padding: 10px;
+        height: 256px;
+        margin-left: -20px;
+        font-size: 10px;
+    }
+    #consultation .content-home a, #learning .content-home a{
+        margin-top: -30px;
+        width: 219px;
+    }
+        
+        #home .content-home a{
+            width: 219px;
+        }
+    
+    #opportunities .content-home  a{
+        margin-top: -38px;
+    }
+    #facilitation .content-home  a{
+        margin-top: -38px;
+    }
+    
+    #resourcing .resourcing-banner{
+            margin-top: 172px;
+    }
+    
+    #contact .content-home a {
+        margin-top: 24px;
+    }
+    
+    #ondemand .content-home a {
+        margin-top: -22px;
+        width: 129px;
+    }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        html,body{overflow-x: hidden;
+            font-size: 14px; width: 100%;}
+    
+        .opportunities-banner .content-home a,
+    .ondemand-banner .content-home a,
+    .facilitation-banner .content-home a{
+        margin-top: -10px;
+    }
+     .seed{ 
+        width: 40%;
+    }
+    #seed {
+        width:20%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    
+        border-right: 0;
+    line-height: 2em}
+    
+    .navbar-nav {
+        background-color: #5F050E;
+        padding-left: 50px;
+        font-size: 16px;
+       
+    }
+        
+        .navbar-expand-lg .navbar-brand {
+    
+            display: block;
+        }
+    
+    #consultation .content-home a, 
+    #learning .content-home a {
+        margin-top: 0px;
+    }
+    
+        body{overflow-x: hidden;}
+        
+        .navbar-expand-lg .navbar-collapse {
+        padding: 0;
+    }
+    
+        .logo {
+            padding: 32px;
+            width: 57%;
+        }
+        .content-home {
+            margin-left: 34px;
+            padding-top: 225px;
+        }
+        #home .home-banner {
+            margin-top:86px;
+            margin-right: -34px;
+        }
+    
+        #consultation .content-home {
+            margin:0 54px;
+            padding-top: 136px;
+    
+    
+    }
+    
+    .col-lg-7{
+        margin-bottom: 0rem;
+    }
+    
+    #learning .col-lg-7{
+        margin-bottom: 0;
+    }
+    
+    #learning #training-image{
+        margin-bottom: 0rem;
+    }
+    
+    #opportunities .sidebar-content {
+        margin-bottom: 0rem;
+    }
+    #consultation .bs-component .content-first-p{
+        margin-top: 34px;
+        margin-right: 0px;
+    }
+        
+        #consultation .consultation-banner {
+            margin-top: 10rem;
+        }
+    #consultation .bs-component p,
+    #home .bs-component p,
+    #learning .bs-component p,
+    #learning .list-content-learning,
+    {
+        margin-left: 20px;
+    }
+    #learning .content-home {
+        margin: 10px 52px;
+    }
+    
+    .button-group {
+        margin-right: 19px;
+        margin-top: -5px;
+    }
+    
+    #resourcing .content-home .connection{
+        margin-top: -4px;
+    }
+    
+    #resourcing .content-home{
+            margin: -53px 25px;
+    }
+    
+    #resourcing .resourcing-banner .content-home .connectbtn{
+        width:241px;
+    }
+    .bs-component p{
+    /*    margin-left: 20px;*/
+    }
+    .sidebar-image{
+        margin-left: -2rem;
+        margin-bottom: 4rem;
+    }
+    .sidebar-image-middle {
+        margin-left:0;
+    }
+    .carousel-inner {
+        margin: 0 133px;
+    }
+    .project {
+        margin-top: 0;
+        margin-right: 0;
+    /*    margin-left: 0px;*/
+    }
+        #contact {
+            height: auto;
+            padding-bottom: 0;
+        }
+        
+        .fixed-bottom {
+            position: static;
+            margin-top: 3rem;
+            padding: 0;
+        }
+        #footer {
+            padding: 0;
+        }
+        .content-footer p{
+                padding-left: 2rem;
+        padding-right: 2rem;
+        }
+        .image-medias-footer a img {
+            padding-left: 0;
+            padding-top: 0;
+            width: 5%;
+        }
+    #opportunities .bs-component .btn{margin-left: 20px;}
+    
+    #ondemand .content-home{margin: -27px 100px;}
+    #ondemand .content-home a{margin-top: -2px;
+        margin-left: -52px;}
+    #ondemand -list-content h2{color: #696B6B;}
+    #facilitation .content-home{margin: -29px 49px;}
+    #contact .content-home{margin: -4px 48px;}
+    #resourcing .resourcing-banner,
+    #ondemand .ondemand-banner{
+        margin-bottom: 37px;
+    }
+    #resourcing .content-home h1,
+    #consultation .content-home h1,
+    #home .content-home h1,
+    #learning .content-home h1,
+    #opportunities .content-home h1,
+    #ondemand .content-home h1,
+    #facilitation .content-home h1{
+        font-size: 24px;
+    }
+    
+    #opportunities .content-first-p{
+        padding-top: 5px;
+    }
+    #facilitation .content-first-p{
+        padding-top: 20px;
+    }
+    
+    .navbar-light .navbar-nav  {
+        color:#5F050E;
+    line-height: 2em}
+    
+    .navbar-toggler {
+        margin-right: 34px;
+    }
+    
+    .navbar-nav {
+        /* background-color: #5F050E; */
+        padding-left: 50px;
+       
+    }
+    .bg-light {
+        padding: 0px;
+    }
+    #learning .learning-banner {
+        margin-bottom: 29px;
+        background: -webkit-linear-gradient(rgba(255,255,255,.5),rgba(0, 0, 0,0.3)),url(../images/learning.jpg) no-repeat center bottom;
+        background-size: 100%;
+        margin-right: -34px;
+    }
+    
+    #contact .contact-banner {
+        margin-top: 51px;
+        margin-right: -34px;
+    
+    }
+    
+    #facilitation .facilitation-banner {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        margin-right: -34px;
+    }
+    #ondemand .ondemand-banner {
+    
+        margin-right: -34px;
+    }
+    
+    #content-contact .col-lg-7{
+        margin-left: 30px;
+    }
+    
+    .content-home h1, h2 {
+        color: #696B6B;
+    }
+    #contact .content-home a,
+    #facilitation .content-home a{
+        width:219px;
+    }
+    
+    #opportunities .opportunities-banner {
+    
+        margin-top: 48px;
+        margin-right: -34px;
+    }
+    
+    
+    #resourcing .resourcing-banner {
+        margin-top: 75px;
+        margin-right: -34px;
+    }
+    .col-lg-5{    padding-left: 34px;
+    }
+    
+    .bg-light{
+        margin-left: -11px;
+    }
+    
+    #organisationalevel{
+    
+        left:410px;
+        top:-395px;
+    
+    }
+    
+    #teamlevel {
+        
+        left: 410px;
+    
+    }
+    
+    #individual-level {
+        
+        left: 420px;
+        top:-340px;
+     
+    }
+    .training-list {
+        width: 350px;}
+    
+    #training-image {
+        margin: 1px 30px;
+    text-align: left;
+    }
+    .project h2,
+    .project li{
+    
+       font-size: 18px;
+       text-align: left;
+    
+    }
+    .list-content{
+        text-align: left;
+        margin-left: 20px
+    }
+    #content-contact .bs-component h2{
+        text-align: left;
+    }
+    #content-contact .bs-component .sidebar-image{
+        margin-top: -5rem;
+    /*    padding-left: 98px;*/
+        margin-right: 2rem;
+    }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        /* #Board p {
+            font-size: 11px;
+            margin-left: -190px;
+            margin-top: 60px;
+            width: 150%;
+         } */
+    }
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+
+    }
+
+
+
